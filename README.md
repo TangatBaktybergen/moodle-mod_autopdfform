@@ -15,21 +15,22 @@ This repository contains a custom Moodle activity module for distributing indivi
 
 ## Folder Structure
 
+```
 /
-├── autopdfform/ # Moodle plugin code
-│ ├── lang/en/
-│ │ └── autopdfform.php
-│ ├── db/
-│ │ ├── upgrade.php
-│ │ ├── install.xml
-│ │ └── access.php
-│ ├── pix/
-│ │ └── icon.svg
-│ ├── version.php
-│ ├── view.php
-│ ├── mod_form.php
-│ ├── lib.php
-│ └── Readme.md
+├── autopdfform/               # Moodle plugin code
+│   ├── lang/en
+│      └── autopdfform.php
+│   ├── db
+│      └── upgrade.php
+│      └── install.xml
+│      └── access.php
+│   ├── pix
+│      └── icon.svg
+│   ├── version.php
+│   ├── view.php
+│   ├── mod_form.php
+│   ├── lib.php
+│   ├── Readme.md
 │
 ├── examples/ # Example PDF form templates for testing
 │ └── borrow_form.pdf
@@ -38,8 +39,7 @@ This repository contains a custom Moodle activity module for distributing indivi
 │ └── borrow_form_27955.pdf # Name/ID auto-filled
 │
 └── README.md
-
----
+```
 
 ## Installation
 
