@@ -33,11 +33,14 @@ This repository contains a custom Moodle activity module that distributes indivi
 │   ├── Readme.md
 │
 ├── examples/ # Example PDF form templates for testing
-│ └── borrow_form.pdf
+│ └── loan-form-2025.pdf
+│ └── individual-pdf.pdf
 │
-├── sample_outputs/ # Example personalized PDFs for demonstration
-│ └── borrow_form_27955.pdf # Name/ID auto-filled
+├── sample_output/ # Example personalized PDFs for demonstration
+│ └── individual-pdf-Tangat-Baktybergen.pdf
+│ └── loan-form-2025-Tangat-Baktybergen.pdf
 │
+├── autopdfform.zip  
 └── README.md
 ```
 
@@ -55,10 +58,10 @@ Go to **Site Administration > Plugins > Install plugins**, and upload the plugin
 
 1. In your Moodle course, turn editing on and **add an activity**.
 2. Choose **AutoPDFForm**.
-3. Upload your PDF template with form fields (see `examples/borrow_form.pdf`).
+3. Upload your PDF template with form fields (see `examples/loan-form-2025.pdf`).
 4. Optionally add a description.
 5. Save and return to the course.
-6. Students open the activity and instantly receive a personalized PDF (see `sample_outputs/borrow_form_27955.pdf`).
+6. Students open the activity and instantly receive a personalized PDF (see `sample_outputs/loan-form-2025-Tangat-Baktybergen.pdf`).
 
 ---
 ### How Data Is Used for Auto-Fill
@@ -70,12 +73,6 @@ The plugin retrieves the following data from the currently logged-in Moodle user
 - **Current Date**: The date when the document is generated/downloaded.
 
 This ensures that each generated file is customized and personalized for the individual student, reducing manual entry and preventing accidental data mix-ups.
-
----
-## Example Files
-
-- **`examples/borrow_form.pdf`** — Sample PDF form template with fields for individualization.
-- **`sample_outputs/borrow_form_27955.pdf`** — Example personalized PDF (Name: Tangat Baktybergen, ID: 27955).
 
 ---
 
