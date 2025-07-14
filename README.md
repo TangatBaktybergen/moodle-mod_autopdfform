@@ -61,7 +61,17 @@ Go to **Site Administration > Plugins > Install plugins**, and upload the plugin
 6. Students open the activity and instantly receive a personalized PDF (see `sample_outputs/borrow_form_27955.pdf`).
 
 ---
+### How Data Is Used for Auto-Fill
 
+The plugin retrieves the following data from the currently logged-in Moodle user and inserts it into PDF or code templates:
+- **Full Name**: Automatically pulled from the user's Moodle profile.
+- **Email Address**: The user's registered Moodle email.
+- **Student ID**: If available, the unique student number from the profile.
+- **Current Date**: The date when the document is generated/downloaded.
+
+This ensures that each generated file is customized and personalized for the individual student, reducing manual entry and preventing accidental data mix-ups.
+
+---
 ## Example Files
 
 - **`examples/borrow_form.pdf`** — Sample PDF form template with fields for individualization.
