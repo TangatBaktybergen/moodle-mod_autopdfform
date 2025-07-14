@@ -1,6 +1,6 @@
 # AutoPDFForm Activity Plugin for Moodle
 
-This repository contains a custom Moodle activity module for distributing individualized PDF forms to students, along with example templates and sample outputs for demonstration and testing.
+This repository contains a custom Moodle activity module that distributes individualized PDF forms to students by automatically filling each PDF with the student’s name, email, and the current date using available Moodle user data, along with example templates and sample outputs for demonstration and testing.
 
 ---
 
