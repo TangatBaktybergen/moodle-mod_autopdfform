@@ -75,6 +75,8 @@ $replacements = [
     'full_name' => $fullname,
     'student_id' => $studentid,
     'email_address' => $email,
+    'first_name' => $firstname,
+    'last_name'  => $lastname,
 ];
 foreach ($replacements as $search => $replace) {
     $pdfcontent = str_replace($search, $replace, $pdfcontent);
