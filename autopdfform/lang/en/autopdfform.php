@@ -26,16 +26,20 @@ $string['autopdfform:addinstance'] = 'Add a new auto-filled PDF form';
 $string['autopdfform:view'] = 'View auto-filled PDF form';
 $string['intro'] = 'Description';
 $string['modulename'] = 'Auto-Filled PDF Form';
-$string['modulename_help'] = 'This activity allows students to download a personalized PDF form, pre-filled with their own data.\n'
-    . 'The teacher must upload a fillable PDF form created using Adobe Acrobat (or a compatible PDF editor).\n'
-    . 'To ensure the form can be saved after being filled, please enable "Save Form Data" functionality in Adobe Acrobat:\n'
-    . 'File → Save As Other → Reader Extended PDF → Enable More Tools (includes form fill-in & save).\n'
-    . 'The following placeholder field names will be replaced automatically:\n'
-    . '- full_name → student’s full name\n'
-    . '- student_id → student’s ID number\n'
-    . '- email_address → student’s email address\n'
-    . '- n_date → current date (DD.MM.YYYY)\n'
-    . 'These placeholders must exactly match the field names used in the PDF for the replacement to work correctly.';
+$string['modulename_help'] = 'This activity allows students to download a personalized PDF form, pre-filled with their own data.
+
+The teacher must upload a fillable PDF form created using Adobe Acrobat (or a compatible PDF editor).
+
+To ensure the form can be saved after being filled, please enable "Save Form Data" functionality in Adobe Acrobat:  
+File → Save As Other → Reader Extended PDF → Enable More Tools (includes form fill-in & save).
+
+The following placeholder field names will be replaced automatically:
+- full_name → student’s full name
+- student_id → student’s ID number
+- email_address → student’s email address
+- n_date → current date (DD.MM.YYYY)
+
+These placeholders must exactly match the field names used in the PDF for the replacement to work correctly.';
 $string['modulenameplural'] = 'Auto-Filled PDF Forms';
 $string['noautopdfforms'] = 'There are no Auto PDF Form activities in this course.';
 $string['noinstances'] = 'There are no Auto PDF Form activities in this course.';
