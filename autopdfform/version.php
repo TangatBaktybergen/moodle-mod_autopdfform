@@ -29,7 +29,7 @@ $plugin->version   = 2025072707;
 $plugin->requires  = 2022041900; // Moodle 4.0.
 $plugin->cron      = 0;
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = 'v1.0';
+$plugin->release   = 'v1.1';
 
 // Optional hidden credit line.
 $plugin->description = 'Auto PDF Form plugin for Moodle. Developed by Ivan Volosyak and Tangat Baktybergen, 2025.';
