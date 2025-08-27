@@ -88,6 +88,8 @@ possibly due to the fact that it may be seen as some kind of copyright manipulat
 
 The plugin retrieves the following data from the currently logged-in Moodle user and inserts it into PDF or code templates:
 - **Full Name**: Automatically pulled from the user's Moodle profile.
+- **Firstname**: Automatically pulled from the user's Moodle profile.
+- **Lastname**: Automatically pulled from the user's Moodle profile.
 - **Email Address**: The user's registered Moodle email.
 - **Student ID**: If available, the unique student number from the profile.
 - **Current Date**: The date when the document is generated/downloaded.
