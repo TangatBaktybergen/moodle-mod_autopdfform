@@ -34,7 +34,7 @@ function xmldb_autopdfform_upgrade($oldversion) {
 
     $dbman = $DB->get_manager();
 
-    if ($oldversion < 2025063001) {
+    if ($oldversion < 2025091500) {
         $table = new xmldb_table('autopdfform');
         $field = new xmldb_field('course', XMLDB_TYPE_INTEGER, '10', null, XMLDB_NOTNULL, null, 0);
 
@@ -45,8 +45,8 @@ function xmldb_autopdfform_upgrade($oldversion) {
         // Safe to try adding key without checking first.
         $key = new xmldb_key('course', XMLDB_KEY_FOREIGN, ['course'], 'course', ['id']);
         $dbman->add_key($table, $key);
-
-        upgrade_mod_savepoint(true, 2025063001, 'autopdfform');
+        // Savepoint.
+        upgrade_mod_savepoint(true, 2025091500, 'autopdfform');
     }
 
     return true;
