@@ -25,7 +25,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'mod_autopdfform';
-$plugin->version   = 2025082901;
+$plugin->version   = 2025091500;
 $plugin->requires  = 2022041900; // Moodle 4.0.
 $plugin->cron      = 0;
 $plugin->maturity  = MATURITY_STABLE;
