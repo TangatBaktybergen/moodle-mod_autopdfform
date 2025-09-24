@@ -21,6 +21,8 @@ The plugin automatically replaces the following placeholder texts inside the PDF
 | Placeholder Field    | Filled With                          |
 |----------------------|--------------------------------------|
 | `full_name`          | Student’s full name (from profile)   |
+| `last_name`          | Student’s last name (from profile)   |
+| `first_name`         | Student’s first name (from profile)  |
 | `student_id`         | Moodle username or extracted ID      |
 | `email_address`      | Student’s Moodle email               |
 | `n_date`             | Current server date                  |
